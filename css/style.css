@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    width: 100%;
+    margin-top: 100px;
+    padding: 1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    color:#4361ee;
+    align-items: center;
+    text-align: center;
+}
+p {
+    background-color: #222222;
+}
+p1 {
+    color:#058c42;
+}
+p2 {
+    color: #ffbe0b;
+}
+p3 {
+    color:#d80032
+}
+p4 {
+    color: #fb5607;
+}
+p5 {
+    color:#8338ec;
+}
+p6 {
+    color:#4361ee;
+}
+body {
+    width:100%;
+    height: 100vh;
+    background-color: #222222;
+    font-family: Clarendon, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.wordBox {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.wordsContainer {
+    width: 100%;
+    display: flex;
+    margin-top: 12px;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+}
+.wordRow {
+    display: flex;
+    flex-direction: row;
+    background-color: #f77f00;
+}
+.word {
+    border: 2px solid #222222;
+    width: 5em;
+    height: 5em;
+    margin: 4px 4px 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keyboard {
+    width: 100%;
+    padding-bottom: 5em;
+}
+.keyboardContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.keyboard button {
+    background-color: #c9e9e8;
+    font-size: medium;
+    color: #222222;
+    outline: none;
+    border: 1px solid #929dca;
+    padding: 1em;
+    cursor: pointer;
+    margin-bottom: 1px;
+    border-radius: 4px;
+    align-items: center;
+}
+.word-green {
+    background-color: #43aa8b !important;
+    color: white !important;
+}
+.word-yellow{
+    background-color: #ffd60a !important;
+    color: white !important;
+}
+.word-red{
+    background-color: #d00000 !important;
+    color: white !important;
+}
+
