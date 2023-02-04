@@ -18,6 +18,11 @@ buttonElements.forEach((element) => {
     keypress(element.attributes["data-key"].value)
     }); 
 });
+let person1 = prompt("Welcome to Lingo! Player 1 Enter your name " );
+alert("Hello " + person1 + "! Are you ready to Win?")
+
+let person2 = prompt("Welcome to Lingo! Player 2 Enter your name " );
+alert ("Hello " + person2 + "! Do you think they can do it?")
 
 function populateWord(key) {
     if (letter < 6) {
